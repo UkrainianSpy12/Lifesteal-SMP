@@ -2,7 +2,7 @@ server_connect_timeout: 5000
 enforce_secure_profile: false
 remote_ping_cache: -1
 forge_support: true
-player_limit: -1
+player_limit: 6
 permissions:
   default:
   - bungeecord.command.server
@@ -20,12 +20,12 @@ disabled_commands:
 - disabledcommandhere
 servers:
   lobby:
-    motd: '&1Just another Waterfall - Forced Host'
+    motd: '            &3&k111&b Here We Go Again &3&k111&r\n           &3&k1&c Season 2 &4&k1&6 OP Lifesteal &3&k1'
     address: localhost:25565
     restricted: false
 listeners:
 - query_port: 25577
-  motd: '&1Another Bungee server'
+  motd: '            &3&k111&b Here We Go Again &3&k111&r\n           &3&k1&c Season 2 &4&k1&6 OP Lifesteal &3&k1
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
@@ -36,8 +36,8 @@ listeners:
   - lobby
   bind_local_address: false
   host: 127.0.0.1:25577
-  max_players: 1
-  tab_size: 60
+  max_players: 6
+  tab_size: 6
   force_default_server: true
 remote_ping_timeout: 5000
 ip_forward: true
